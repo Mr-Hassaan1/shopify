@@ -23,17 +23,17 @@
     display: flex;
     align-items: center;
     gap: 0 60px;
-    margin: 30px 100px;
+    margin: 20px 100px;
 }
 
 #logo {
-    height: 50px;
+    height: 40px;
 }
 
 .title,
 #loginBar {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -45,10 +45,10 @@
 #navButton {
     color: black;
     background-color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 45px;
     padding: 10px 15px;
     border: none;
     border-radius: 50px;
@@ -72,38 +72,33 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    margin-bottom: 100px;
     color: white;
-    width: -webkit-fill-available;
     height: 100vh;
     padding: 0 100px;
 }
 
-.content {
-    margin-bottom: 2rem;
-}
-
 .heroSectionHeadings {
-    width: 45%;
-    margin-bottom: 200px;
+    width: 40%;
+    margin-bottom: 160px;
 }
 
 .heroSectionHeadings>h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .heroSectionHeadings>h2 {
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 300;
 }
 
 .buttonWrepper {
     display: flex;
     justify-content: space-between;
+    gap: 0 600px;
 }
 
-.buttonWrepper>div {
+.buttonWrepper> div {
     display: flex;
 }
 
@@ -113,29 +108,28 @@
     border-radius: 50px;
     height: 70px;
     border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
 }
 
 .buttonWrepper>div>button {
     background-color: white;
-    width: 200px;
-    padding: 10px 15px;
-    font-size: 23px;
     font-weight: bold;
+    height: 55px;
+    width: 160px;
 }
 
 .buttonWrepper>div>p {
-    font-size: 19px;
-    width: 270px;
+    width: 230px;
     margin-top: 10px;
 }
 
 .buttonWrepper>button {
     color: white;
     background-color: transparent;
-    width: 350px;
-    padding: 10px;
+    height: 65px;
     letter-spacing: 2px;
-    font-size: 20px;
 }
 
 .buttonWrepper>div>button:hover {
@@ -148,6 +142,10 @@
     color: black;
     background-color: white;
     cursor: pointer;
+}
+.video{
+    width: -webkit-fill-available;
+    overflow: hidden;
 }
 
 /* ..................................... World Section ......................................... */
@@ -169,9 +167,10 @@
 }
 
 .worldImage img {
-    width: 150%;
+    width: 200%;
     position: relative;
     right: 200px;
+    margin-bottom: 100px;
 
 }
 
@@ -179,7 +178,7 @@
     flex: 2;
     font-size: 38px;
     font-weight: bold;
-    margin: 0 60px;
+    margin: 50px 60px;
 }
 
 #fromHelloWorld {
@@ -565,9 +564,9 @@
 }
 
 .contectUsLogo {
-    height: 40px;
+    height: 35px;
     display: flex;
-    gap: 0 40px;
+    gap: 0 35px;
 
 }
 
