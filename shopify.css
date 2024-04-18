@@ -1,0 +1,575 @@
+@import url(https://db.onlinewebfonts.com/c/ad26818d844de4534fd78bb03028ca79?family=Shopify+Sans+Web+Medium+Regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'ShopifySans', Helvetica, Arial, sans-serif;
+}
+
+/* ..................................... NAV-BAR ......................................... */
+
+
+.nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+    font-weight: 300;
+}
+
+.navbar,
+.login {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+    margin: 30px 100px;
+}
+
+#logo {
+    height: 50px;
+}
+
+.title,
+#loginBar {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.title:hover,
+#loginBar:hover {
+    text-decoration: underline;
+}
+
+#navButton {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+#navButton:hover {
+    background-color: rgba(212, 212, 216, 1);
+    cursor: pointer;
+}
+
+
+/* ..................................... TOP-CONTENT ......................................... */
+
+
+.main {
+    position: relative;
+}
+
+.contentWrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 100px;
+    color: white;
+    width: -webkit-fill-available;
+    height: 100vh;
+    padding: 0 100px;
+}
+
+.content {
+    margin-bottom: 2rem;
+}
+
+.heroSectionHeadings {
+    width: 45%;
+    margin-bottom: 200px;
+}
+
+.heroSectionHeadings>h1 {
+    font-size: 4rem;
+}
+
+.heroSectionHeadings>h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.buttonWrepper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonWrepper>div {
+    display: flex;
+}
+
+.buttonWrepper>div>button,
+.buttonWrepper>button {
+    margin-right: 30px;
+    border-radius: 50px;
+    height: 70px;
+    border: 1px solid white;
+}
+
+.buttonWrepper>div>button {
+    background-color: white;
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.buttonWrepper>div>p {
+    font-size: 19px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.buttonWrepper>button {
+    color: white;
+    background-color: transparent;
+    width: 350px;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.buttonWrepper>div>button:hover {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonWrepper>button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* ..................................... World Section ......................................... */
+
+.world {
+    background-color: rgba(244, 244, 244, 1);
+}
+
+#worldSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0 120px;
+}
+
+.worldImage {
+    flex: 1;
+}
+
+.worldImage img {
+    width: 150%;
+    position: relative;
+    right: 200px;
+
+}
+
+.worldDiscover {
+    flex: 2;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 60px;
+}
+
+#fromHelloWorld {
+    padding: 0 10px;
+    background: linear-gradient(90deg, #e9f9f4, #cfebfe, #f2eefe);
+}
+
+.worldArticles {
+    margin-top: 100px;
+    position: relative;
+    height: 400px;
+}
+
+.worldArticles article {
+    border-left: .25rem solid;
+    border-image: linear-gradient(360deg, #01e2a2, #01bae2);
+    border-image-slice: 1;
+    padding-left: 25px;
+}
+
+.worldArticles h3 {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.worldArticles p {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+#merchants {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#countries {
+    position: absolute;
+    left: 450px;
+    top: 0;
+}
+
+#economic {
+    position: absolute;
+    left: 450px;
+    bottom: 60px;
+}
+
+#ecommerce {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+#ExploreTheWorld {
+    margin: 70px 0 0 100px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgba(16, 71, 95, 1);
+}
+
+.communitys {
+    background-color: rgb(249 250 251 1);
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 70px;
+    gap: 0 10px;
+    padding: 40px 0 70px;
+    font-size: 18px;
+}
+
+.communitys>article {
+    border: 0.1px solid rgb(249 250 251 1);
+    background: white;
+    border-radius: 1rem;
+    margin-left: 15px;
+    max-width: 300px;
+}
+
+.communitys>article :hover {
+    cursor: pointer;
+}
+
+.communitys img {
+    margin-top: 10px;
+    padding: 1.5rem;
+    height: 80px;
+}
+
+.communitys h3 {
+    margin-top: .5rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+.communitys p {
+    color: rgb(82 82 91);
+    padding: 0 1.5rem 2rem 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* .....................................BUILD STORE Section ......................................... */
+
+
+.store {
+    background-color: rgb(231, 231, 231);
+    padding: 100px;
+}
+
+.buildStore h4 {
+    color: rgb(8 68 94);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.buildStore h1 {
+    font-size: 55px;
+    margin-bottom: 100px;
+}
+
+.buildStore img {
+    border-radius: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.features article {
+    border-top: 2px solid #97979e;
+    margin-top: 50px;
+    padding-top: 70px;
+    color: #52525b;
+}
+
+.features :nth-child(1) {
+    max-width: 34rem;
+}
+
+.features article p {
+    margin-top: 20px;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.features article a {
+    color: inherit;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.features article:hover {
+    color: black;
+    cursor: pointer;
+    border-image: linear-gradient(90deg, #01e2a2, #01bae2);
+    border-image-slice: 1;
+}
+
+
+/* .....................................SUPPORT Section ......................................... */
+
+
+.support {
+    background-color: black;
+    color: white;
+    padding: 150px 100px;
+}
+
+#shopifySupport {
+    text-align: center;
+}
+
+#shopifySupport h3 {
+    margin-bottom: 20px;
+}
+
+#shopifySupport h1 {
+    font-size: 55px;
+}
+
+.helpCenter {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 30px;
+
+}
+
+.helpCenter article {
+    background-color: #0a0a0a;
+    border: 1px solid #1b1c1c;
+    border-radius: 25px;
+    width: 45%;
+    margin-top: 30px;
+    padding: 50px 150px 40px 70px;
+    box-sizing: border-box
+}
+
+.helpCenter article:hover {
+    cursor: pointer;
+}
+
+.helpCenter svg {
+    width: 2rem;
+    color: black;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 30px;
+}
+
+#blog {
+    background: linear-gradient(46.87deg, #96E4E9 0%, #82F953 96.94%);
+}
+
+#courses {
+    background: linear-gradient(45deg, #63FFA9 0%, #623AFF 120.54%);
+}
+
+#community {
+    background: linear-gradient(46.87deg, #5576ED 0%, #6FFD96 96.94%)
+}
+
+#center {
+    background: linear-gradient(150.75deg, #66D08A 17.95%, #436AF4 93.13%)
+}
+
+.helpCenter h1 {
+    font-size: 52px;
+    margin-bottom: 25px;
+}
+
+.helpCenter p {
+    font-size: 22px;
+    margin-bottom: 70px;
+}
+
+.helpCenter div {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1b1f21;
+    border: 1px solid #313b40;
+    border-radius: 50px;
+    height: 40px;
+    width: 140px;
+    box-sizing: border-box;
+    padding: 7px 20px;
+    margin-bottom: 50px;
+}
+
+.helpCenter article:hover div {
+    background-color: #313b40;
+    width: 170px;
+    transition: 0.5s;
+
+}
+
+.helpCenter article:hover div .arrow {
+    margin-left: 25px;
+    transition: 0.5s;
+}
+
+
+/* .....................................Grow Your Business Section ......................................... */
+
+
+.Business {
+    background: linear-gradient(115deg, #5fd5b6, #4bfe85);
+    padding-top: 70px;
+    text-align: center;
+}
+
+.growYourBusiness h1 {
+    font-size: 55px;
+}
+
+.growYourBusiness p {
+    font-size: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 35px 185px 50px 185px;
+    box-sizing: border-box;
+    padding: 0px 150px 0 150px;
+}
+
+.growYourBusiness button {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 25px 35px;
+    margin-bottom: 100px;
+}
+
+.growYourBusiness button:hover {
+    background-color: #313b40;
+    cursor: pointer;
+}
+
+
+/* ..................................... Footer Section ......................................... */
+
+
+.footer {
+    background: white;
+    padding: 100px;
+}
+
+.footerPage {
+    display: flex;
+}
+
+.cartLogo {
+    display: flex;
+    flex: 1;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    flex: 4;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.footerContent article h3 {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.footerContent article a {
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.footerContent article a:hover {
+    text-decoration: underline;
+}
+
+
+/* .........................................Ending Section...................................................... */
+
+
+.contect {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customerCare {
+    display: flex;
+    gap: 0 30px;
+}
+
+.customerCare svg {
+    height: 20px;
+}
+
+.customerCare span {
+    font-size: 20px;
+}
+
+.customerCare a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.customerCare a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contectUsLogo {
+    height: 40px;
+    display: flex;
+    gap: 0 40px;
+
+}
+
+.contectUsLogo:hover {
+    cursor: pointer;
+}
