@@ -303,6 +303,7 @@
 
 .buildStore img {
     border-radius: 20px;
+    width: 100%;
 }
 
 .features {
